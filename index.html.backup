@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modern JavaScript Syntax Lab</title>
-    <link rel="stylesheet" href="./main.css" />
+    <title>Modern JavaScript Lab</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <!-- Enhanced Holographic Cursor System -->
@@ -13,28 +13,24 @@
     <div class="wormhole" id="wormhole"></div>
     <div class="dimensional-rift" id="dimensional-rift"></div>
 
-    <!-- VINE-INSPIRED QUANTUM NAVIGATION -->
+    <!-- Quantum Navigation -->
     <nav class="quantum-nav" id="quantum-nav">
       <div class="nav-logo">
-        <span class="logo-text" data-text="JS_LAB_V2.0">JS_LAB_V2.0</span>
+        <span class="logo-text">QUANTUM</span>
         <div class="logo-particles"></div>
       </div>
       <div class="nav-links">
-        <a href="#reality" class="nav-link" data-dimension="0">// INIT</a>
-        <a href="#probability" class="nav-link" data-dimension="1">// EXEC</a>
-        <a href="#entanglement" class="nav-link" data-dimension="2">// DEBUG</a>
-        <a href="#superposition" class="nav-link" data-dimension="3"
-          >// DEPLOY</a
-        >
-        <div class="nav-terminal">
-          <span class="terminal-cursor">[ACTIVE]</span>
-        </div>
+        <a href="#reality" class="nav-link" data-dimension="0">REALITY</a>
+        <a href="#probability" class="nav-link" data-dimension="1">PROBABILITY</a>
+        <a href="#entanglement" class="nav-link" data-dimension="2">ENTANGLEMENT</a>
+        <a href="#superposition" class="nav-link" data-dimension="3">SUPERPOSITION</a>
       </div>
       <div class="nav-quantum-field"></div>
     </nav>
 
     <!-- Parallax Container -->
     <div class="parallax-container" id="parallax-container">
+      
       <!-- Scene 1: Reality Layer -->
       <section class="quantum-scene" id="reality" data-scene="0">
         <div class="scene-background bg-reality"></div>
@@ -47,36 +43,13 @@
             <div class="particle"></div>
             <div class="particle"></div>
           </div>
-          <div class="terminal-header">
-            <span class="coordinates">37.7749° N, 122.4194° W</span>
-            <span class="timestamp" id="timestamp"></span>
-          </div>
-
-          <h1 class="quantum-title" data-text="MODERN JAVASCRIPT SYNTAX LAB">
-            <span class="title-word" data-word="0">MODERN</span>
-            <span class="title-word" data-word="1">JAVASCRIPT</span>
-            <span class="title-word" data-word="2">SYNTAX</span>
-            <span class="title-word" data-word="3">LAB</span>
+          <h1 class="quantum-title" data-text="Modern JavaScript Syntax Lab">
+            <span class="title-word" data-word="0">Modern</span>
+            <span class="title-word" data-word="1">JavaScript</span>
+            <span class="title-word" data-word="2">Syntax</span>
+            <span class="title-word" data-word="3">Lab</span>
           </h1>
-
-          <p class="quantum-subtitle">
-            / / I N T E R A C T I V E _ C O N S O L E _ A W A I T S . . .
-          </p>
-
-          <div class="hero-stats">
-            <div class="stat-item">
-              <span class="stat-label">MODULES LOADED</span>
-              <span class="stat-value" data-stat="modules">003</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-label">QUANTUM STATE</span>
-              <span class="stat-value" data-stat="state">STABLE</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-label">NETWORK STATUS</span>
-              <span class="stat-value" data-stat="network">CONNECTED</span>
-            </div>
-          </div>
+          <p class="quantum-subtitle">// Interactive console output awaits in multiple dimensions</p>
           <div class="reality-particles"></div>
         </div>
       </section>
@@ -86,16 +59,12 @@
         <div class="scene-background bg-probability"></div>
         <div class="scene-content">
           <h2 class="scene-title">PROBABILITY CLOUD</h2>
-          <p class="scene-description">
-            Where code exists in superposition until observed
-          </p>
+          <p class="scene-description">Where code exists in superposition until observed</p>
           <div class="probability-waves"></div>
           <div class="code-snippets">
-            <div class="floating-code">
-              import name from './exportingFile.js';
-            </div>
-            <div class="floating-code">console.future(identity);</div>
-            <div class="floating-code">PABLO DANIEL CORDERO</div>
+            <div class="floating-code">import name from './exportingFile.js';</div>
+            <div class="floating-code">console.log(name);</div>
+            <div class="floating-code">export default 'Matt';</div>
           </div>
         </div>
       </section>
@@ -105,13 +74,11 @@
         <div class="scene-background bg-entanglement"></div>
         <div class="scene-content">
           <h2 class="scene-title">QUANTUM ENTANGLEMENT</h2>
-          <p class="scene-description">
-            Modules connected across infinite space
-          </p>
+          <p class="scene-description">Modules connected across infinite space</p>
           <div class="entanglement-network"></div>
           <div class="connected-nodes">
-            <div class="node" data-module="export">NO</div>
-            <div class="node" data-module="import">TRY</div>
+            <div class="node" data-module="export">EXPORT</div>
+            <div class="node" data-module="import">IMPORT</div>
             <div class="quantum-bridge"></div>
           </div>
         </div>
@@ -122,20 +89,255 @@
         <div class="scene-background bg-superposition"></div>
         <div class="scene-content">
           <h2 class="scene-title">SUPERPOSITION STATE</h2>
-          <p class="scene-description">
-            All possibilities exist simultaneously
-          </p>
+          <p class="scene-description">All possibilities exist simultaneously</p>
           <div class="superposition-field"></div>
           <div class="quantum-console">
             <div class="console-line">>>> Initializing quantum state...</div>
-            <div class="console-line">>>> PABLO PISTOLA = ψ(quantum_state)</div>
-            <div class="console-line">
-              >>> Observation collapsed wave function
-            </div>
-            <div class="console-line">>>> Result: "ETHEREAL" ✨</div>
+            <div class="console-line">>>> Matt = ψ(quantum_state)</div>
+            <div class="console-line">>>> Observation collapsed wave function</div>
+            <div class="console-line">>>> Result: "Matt" ✨</div>
           </div>
         </div>
       </section>
+
+    </div>
+
+    <!-- Quantum Scroll Progress -->
+    <div class="quantum-progress">
+      <div class="progress-bar"></div>
+      <div class="progress-particles"></div>
+    </div>
+
+    <!-- QUANTUM CONSTELLATION CURSOR UNIVERSE -->
+    <script>
+      // QUANTUM CONSTELLATION CURSOR UNIVERSE ENGINE
+      class QuantumCursorUniverse {
+        constructor() {
+          this.cursor = document.getElementById("cursor");
+          this.gravityField = document.getElementById("gravity-field");
+          this.wormhole = document.getElementById("wormhole");
+          this.dimensionalRift = document.getElementById("dimensional-rift");
+
+          this.mouseX = 0;
+          this.mouseY = 0;
+          this.targetX = 0;
+          this.targetY = 0;
+
+          this.particles = [];
+          this.energyWaves = [];
+          this.maxParticles = 50;
+          this.maxEnergyWaves = 6; // Hexagon formation
+
+          this.isMouseMoving = false;
+          this.moveTimeout = null;
+        
+        init() {
+          window.addEventListener('scroll', () => this.handleScroll());
+          window.addEventListener('resize', () => this.handleResize());
+          
+          // Smooth scroll for nav links
+          document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+              e.preventDefault();
+              const targetId = link.getAttribute('href').substring(1);
+              const target = document.getElementById(targetId);
+              if (target) {
+                target.scrollIntoView({ 
+                  behavior: 'smooth',
+                  block: 'start'
+                });
+              }
+            });
+          });
+          
+          this.updateParallax();
+        }
+        
+        handleScroll() {
+          const scrollTop = window.pageYOffset;
+          const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+          this.scrollProgress = scrollTop / docHeight;
+          
+          // Update progress bar
+          this.progressBar.style.width = (this.scrollProgress * 100) + '%';
+          
+          // Update navigation transparency
+          const navOpacity = Math.min(1, scrollTop / 100);
+          this.nav.style.background = `rgba(0, 0, 0, ${0.2 + navOpacity * 0.3})`;
+          
+          this.updateParallax();
+          this.updateSceneTransitions();
+        }
+        
+        updateParallax() {
+          this.scenes.forEach((scene, index) => {
+            const rect = scene.getBoundingClientRect();
+            const sceneProgress = 1 - (rect.top / window.innerHeight);
+            const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+            
+            if (isVisible) {
+              // Quantum phase transitions
+              const phase = Math.sin(sceneProgress * Math.PI);
+              const quantumShift = sceneProgress * 50;
+              
+              // Apply quantum transformations
+              const background = scene.querySelector('.scene-background');
+              const content = scene.querySelector('.scene-content');
+              
+              if (background) {
+                background.style.transform = `
+                  translateY(${quantumShift * 0.5}px) 
+                  scale(${1 + sceneProgress * 0.1})
+                  rotate(${phase * 2}deg)
+                `;
+                background.style.filter = `
+                  blur(${Math.abs(phase) * 2}px)
+                  hue-rotate(${sceneProgress * 60}deg)
+                  brightness(${0.8 + phase * 0.4})
+                `;
+              }
+              
+              if (content) {
+                content.style.transform = `
+                  translateY(${-quantumShift * 0.3}px)
+                  translateZ(${phase * 100}px)
+                `;
+                content.style.opacity = Math.max(0.3, 1 - Math.abs(sceneProgress - 0.5) * 2);
+              }
+              
+              // Update current scene
+              if (sceneProgress > 0.3 && sceneProgress < 0.7) {
+                this.currentScene = index;
+              }
+            }
+          });
+        }
+        
+        updateSceneTransitions() {
+          // Create quantum tunneling effects between scenes
+          this.scenes.forEach((scene, index) => {
+            const rect = scene.getBoundingClientRect();
+            const centerY = rect.top + rect.height / 2;
+            const distanceFromCenter = Math.abs(centerY - window.innerHeight / 2);
+            const maxDistance = window.innerHeight;
+            const tunnelEffect = 1 - (distanceFromCenter / maxDistance);
+            
+            if (tunnelEffect > 0) {
+              const quantumField = Math.sin(Date.now() * 0.001 + index) * tunnelEffect;
+              scene.style.filter = `
+                blur(${(1 - tunnelEffect) * 3}px)
+                brightness(${0.7 + tunnelEffect * 0.5})
+                saturate(${0.8 + quantumField * 0.4})
+              `;
+            }
+          });
+        }
+        
+        handleResize() {
+          this.updateParallax();
+        }
+      }
+
+      // Initialize both systems when page loads
+      document.addEventListener('DOMContentLoaded', () => {
+        new QuantumCursorUniverse();
+        new QuantumParallaxEngine();
+        
+        // Initialize floating animations for title words
+        document.querySelectorAll('.title-word').forEach((word, index) => {
+          word.style.setProperty('--word-index', index);
+        });
+      });id="gravity-field"></div>
+    <div class="wormhole" id="wormhole"></div>
+    <div class="dimensional-rift" id="dimensional-rift"></div>
+
+    <!-- Quantum Navigation -->
+    <nav class="quantum-nav" id="quantum-nav">
+      <div class="nav-logo">
+        <span class="logo-text">QUANTUM</span>
+        <div class="logo-particles"></div>
+      </div>
+      <div class="nav-links">
+        <a href="#reality" class="nav-link" data-dimension="0">REALITY</a>
+        <a href="#probability" class="nav-link" data-dimension="1">PROBABILITY</a>
+        <a href="#entanglement" class="nav-link" data-dimension="2">ENTANGLEMENT</a>
+        <a href="#superposition" class="nav-link" data-dimension="3">SUPERPOSITION</a>
+      </div>
+      <div class="nav-quantum-field"></div>
+    </nav>
+
+    <!-- Parallax Container -->
+    <div class="parallax-container" id="parallax-container">
+      
+      <!-- Scene 1: Reality Layer -->
+      <section class="quantum-scene" id="reality" data-scene="0">
+        <div class="scene-background bg-reality"></div>
+        <div class="scene-content">
+          <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+          </div>
+          <h1 class="quantum-title" data-text="Modern JavaScript Syntax Lab">
+            <span class="title-word" data-word="0">Modern</span>
+            <span class="title-word" data-word="1">JavaScript</span>
+            <span class="title-word" data-word="2">Syntax</span>
+            <span class="title-word" data-word="3">Lab</span>
+          </h1>
+          <p class="quantum-subtitle">// Interactive console output awaits in multiple dimensions</p>
+          <div class="reality-particles"></div>
+        </div>
+      </section>
+
+      <!-- Scene 2: Probability Wave -->
+      <section class="quantum-scene" id="probability" data-scene="1">
+        <div class="scene-background bg-probability"></div>
+        <div class="scene-content">
+          <h2 class="scene-title">PROBABILITY CLOUD</h2>
+          <p class="scene-description">Where code exists in superposition until observed</p>
+          <div class="probability-waves"></div>
+          <div class="code-snippets">
+            <div class="floating-code">import name from './exportingFile.js';</div>
+            <div class="floating-code">console.log(name);</div>
+            <div class="floating-code">export default 'Matt';</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scene 3: Quantum Entanglement -->
+      <section class="quantum-scene" id="entanglement" data-scene="2">
+        <div class="scene-background bg-entanglement"></div>
+        <div class="scene-content">
+          <h2 class="scene-title">QUANTUM ENTANGLEMENT</h2>
+          <p class="scene-description">Modules connected across infinite space</p>
+          <div class="entanglement-network"></div>
+          <div class="connected-nodes">
+            <div class="node" data-module="export">EXPORT</div>
+            <div class="node" data-module="import">IMPORT</div>
+            <div class="quantum-bridge"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scene 4: Superposition -->
+      <section class="quantum-scene" id="superposition" data-scene="3">
+        <div class="scene-background bg-superposition"></div>
+        <div class="scene-content">
+          <h2 class="scene-title">SUPERPOSITION STATE</h2>
+          <p class="scene-description">All possibilities exist simultaneously</p>
+          <div class="superposition-field"></div>
+          <div class="quantum-console">
+            <div class="console-line">>>> Initializing quantum state...</div>
+            <div class="console-line">>>> Matt = ψ(quantum_state)</div>
+            <div class="console-line">>>> Observation collapsed wave function</div>
+            <div class="console-line">>>> Result: "Matt" ✨</div>
+          </div>
+        </div>
+      </section>
+
     </div>
 
     <!-- Quantum Scroll Progress -->
@@ -383,11 +585,17 @@
             const waveOpacity = this.isMouseMoving ? 0.7 : 0.4;
             wave.element.style.opacity = waveOpacity;
 
-            // Dynamic color shifting for the hexagon ring
-            const hue = (index * 60 + this.quantumState * 30) % 360; // 60 degrees apart for hexagon
-            wave.element.style.background = `rgba(0, 255, 255, 0.6)`;
-            wave.element.style.borderColor = `hsl(${hue}, 100%, 70%)`;
-            wave.element.style.boxShadow = `0 0 8px hsl(${hue}, 100%, 70%)`;
+            // Dynamic color shifting
+            const hue = (index * 45 + this.quantumState * 30) % 360;
+            wave.element.style.background = `
+              linear-gradient(180deg, 
+                transparent 0%,
+                hsl(${hue}, 100%, 70%) 20%,
+                hsl(${(hue + 180) % 360}, 100%, 60%) 50%,
+                hsl(${hue}, 100%, 70%) 80%,
+                transparent 100%
+              )
+            `;
           });
 
           // Ultra refined quantum state evolution
@@ -400,147 +608,9 @@
         }
       }
 
-      // QUANTUM PARALLAX SYSTEM
-      class QuantumParallaxEngine {
-        constructor() {
-          this.scenes = document.querySelectorAll(".quantum-scene");
-          this.nav = document.getElementById("quantum-nav");
-          this.progressBar = document.querySelector(".progress-bar");
-          this.currentScene = 0;
-          this.scrollProgress = 0;
-
-          this.init();
-        }
-
-        init() {
-          window.addEventListener("scroll", () => this.handleScroll());
-          window.addEventListener("resize", () => this.handleResize());
-
-          // Smooth scroll for nav links
-          document.querySelectorAll(".nav-link").forEach((link) => {
-            link.addEventListener("click", (e) => {
-              e.preventDefault();
-              const targetId = link.getAttribute("href").substring(1);
-              const target = document.getElementById(targetId);
-              if (target) {
-                target.scrollIntoView({
-                  behavior: "smooth",
-                  block: "start",
-                });
-              }
-            });
-          });
-
-          this.updateParallax();
-        }
-
-        handleScroll() {
-          const scrollTop = window.pageYOffset;
-          const docHeight =
-            document.documentElement.scrollHeight - window.innerHeight;
-          this.scrollProgress = scrollTop / docHeight;
-
-          // Update progress bar
-          if (this.progressBar) {
-            this.progressBar.style.width = this.scrollProgress * 100 + "%";
-          }
-
-          // Update navigation transparency
-          const navOpacity = Math.min(1, scrollTop / 100);
-          if (this.nav) {
-            this.nav.style.background = `rgba(0, 0, 0, ${
-              0.2 + navOpacity * 0.3
-            })`;
-          }
-
-          this.updateParallax();
-          this.updateSceneTransitions();
-        }
-
-        updateParallax() {
-          this.scenes.forEach((scene, index) => {
-            const rect = scene.getBoundingClientRect();
-            const sceneProgress = 1 - rect.top / window.innerHeight;
-            const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
-
-            if (isVisible) {
-              // Quantum phase transitions
-              const phase = Math.sin(sceneProgress * Math.PI);
-              const quantumShift = sceneProgress * 50;
-
-              // Apply quantum transformations
-              const background = scene.querySelector(".scene-background");
-              const content = scene.querySelector(".scene-content");
-
-              if (background) {
-                background.style.transform = `
-                  translateY(${quantumShift * 0.5}px) 
-                  scale(${1 + sceneProgress * 0.1})
-                  rotate(${phase * 2}deg)
-                `;
-                background.style.filter = `
-                  blur(${Math.abs(phase) * 2}px)
-                  hue-rotate(${sceneProgress * 60}deg)
-                  brightness(${0.8 + phase * 0.4})
-                `;
-              }
-
-              if (content) {
-                content.style.transform = `
-                  translateY(${-quantumShift * 0.3}px)
-                  translateZ(${phase * 100}px)
-                `;
-                content.style.opacity = Math.max(
-                  0.3,
-                  1 - Math.abs(sceneProgress - 0.5) * 2
-                );
-              }
-
-              // Update current scene
-              if (sceneProgress > 0.3 && sceneProgress < 0.7) {
-                this.currentScene = index;
-              }
-            }
-          });
-        }
-
-        updateSceneTransitions() {
-          // Create quantum tunneling effects between scenes
-          this.scenes.forEach((scene, index) => {
-            const rect = scene.getBoundingClientRect();
-            const centerY = rect.top + rect.height / 2;
-            const distanceFromCenter = Math.abs(
-              centerY - window.innerHeight / 2
-            );
-            const maxDistance = window.innerHeight;
-            const tunnelEffect = 1 - distanceFromCenter / maxDistance;
-
-            if (tunnelEffect > 0) {
-              const quantumField =
-                Math.sin(Date.now() * 0.001 + index) * tunnelEffect;
-              scene.style.filter = `
-                blur(${(1 - tunnelEffect) * 3}px)
-                brightness(${0.7 + tunnelEffect * 0.5})
-                saturate(${0.8 + quantumField * 0.4})
-              `;
-            }
-          });
-        }
-
-        handleResize() {
-          this.updateParallax();
-        }
-      }
-
-      // Initialize both systems when page loads
+      // Initialize the Quantum Universe when page loads
       document.addEventListener("DOMContentLoaded", () => {
         new QuantumCursorUniverse();
-        new QuantumParallaxEngine();
-
-        // Initialize floating animations for title words
-        document.querySelectorAll(".title-word").forEach((word, index) => {
-          word.style.setProperty("--word-index", index);
-        });
       });
     </script>
 
