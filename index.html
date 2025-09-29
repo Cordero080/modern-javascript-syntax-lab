@@ -264,6 +264,12 @@
           this.wormhole.style.left = this.mouseX - 75 + "px";
           this.wormhole.style.top = this.mouseY - 75 + "px";
 
+          // Trigger ripple animation
+          this.wormhole.classList.remove("ripple");
+          // Force reflow to restart animation
+          void this.wormhole.offsetWidth;
+          this.wormhole.classList.add("ripple");
+
           // Suck in nearby particles
           this.particles.forEach((particle) => {
             const dx = this.mouseX - particle.x;
@@ -279,7 +285,8 @@
           setTimeout(() => {
             this.wormholeActive = false;
             this.wormhole.style.opacity = "0";
-          }, 2000);
+            this.wormhole.classList.remove("ripple");
+          }, 700);
         }
 
         createDimensionalRift() {
